@@ -33,8 +33,8 @@
 </style>
 
 <body>
-    <!-- <div class=" configH "></div> -->
-    <div class="include " file="../pages/top.html "></div>
+    <div class=" configH "></div>
+    <!-- <div class="include " file="../pages/top.html "></div> -->
     <div class="about_img "></div>
     <div class="about ">
         <div class="about_container ">
@@ -205,14 +205,14 @@
     start();
 
     function start() {
-        $(".include ").each(function() {
-            if (!!$(this).attr("file ")) {
-                var $includeObj = $(this);
-                $(this).load($(this).attr("file "), function(html) {
-                    $includeObj.after(html).remove();
-                })
-            }
-        });
+        // $(".include ").each(function() {
+        //     if (!!$(this).attr("file ")) {
+        //         var $includeObj = $(this);
+        //         $(this).load($(this).attr("file "), function(html) {
+        //             $includeObj.after(html).remove();
+        //         })
+        //     }
+        // });
         // $('.configH').load('top.html');
         layui.use('element', function() {
             var element = layui.element;
