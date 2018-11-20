@@ -199,7 +199,8 @@
         </div>
     </div>
     </div>
-    <div class="include " file="../pages/foot.html "></div>
+    <div class="showfooter"></div>
+    <!-- <div class="include " file="../pages/foot.html "></div> -->
 </body>
 <script>
     start();
@@ -214,6 +215,7 @@
         //     }
         // });
         $('.configH').load('top.html');
+        $('.showfooter').load('foot.html');
         layui.use('element', function() {
             var element = layui.element;
 
