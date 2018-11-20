@@ -1,0 +1,364 @@
+body {
+    font-family: "微软雅黑";
+    font-size: 12px;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html,
+body,
+dl,
+dd,
+img,
+form,
+div,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    width: 100%;
+    margin: 0 auto;
+    background: url(../images/footer_bg.gif) repeat-x;
+    height: 404px;
+}
+
+.footer_container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.footer_content {
+    height: 280px;
+}
+
+.footer_content dl {
+    float: left;
+    line-height: 34px;
+    width: 205px;
+}
+
+.footer_content dl dt {
+    font-size: 18px;
+    font-family: "微软雅黑";
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.footer_content dl dd a:hover {
+    text-decoration: underline
+}
+
+.footer_content input {
+    color: #999;
+    border: #d8d8d8 1px solid;
+    width: 230px;
+    padding-left: 5px;
+    height: 26px;
+    line-height: 26px;
+}
+
+.footer_content textarea {
+    width: 230px;
+    height: 26px;
+    color: #999;
+    border: #d8d8d8 1px solid;
+    padding-left: 5px;
+    line-height: 26px;
+}
+
+.subBtn {
+    background-color: #4bcdd9;
+    width: 78px;
+    height: 35px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+}
+
+.bottom {
+    width: 100%;
+    margin: 0 auto;
+    background: url(../images/bottom_bg.gif) repeat-x;
+    height: 65px;
+    line-height: 65px;
+}
+
+.bottom_con {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    color: #666;
+}
+
+.contact_container {
+    width: 100%;
+    margin: 0px auto;
+    color: #444;
+}
+
+.contact_header {
+    background: url(../images/address.png) no-repeat center top;
+    height: 350px;
+    background-size: cover;
+}
+
+.contact_vision {
+    width: 1200px;
+    margin: 0 auto;
+    height: 170px;
+    padding-top: 30px;
+    background: url(../images/contact_bg.gif) no-repeat;
+}
+
+.vision_left {
+    font-family: "微软雅黑";
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    width: 80%;
+    display: inline-block;
+    padding-left: 30px;
+}
+
+.vision_right {
+    display: inline-block;
+    padding: 20px;
+    vertical-align: top;
+}
+
+.vision_right a {
+    width: 142px;
+    height: 35px;
+    background: #333;
+    display: block;
+    color: #fff;
+    line-height: 35px;
+    text-align: center;
+    font-family: "微软雅黑";
+    font-size: 16px;
+}
+
+.contact_content {
+    padding: 40px 0px 0px 0px;
+}
+
+.contact_msg {
+    width: 100%;
+    margin: 0 auto;
+    background: #f6f6f6;
+}
+
+.cmsg_container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.clearBoth {
+    clear: both;
+    font-size: 0;
+    line-height: 0;
+    height: 0;
+    visibility: visible;
+}
+
+.cmsg_container ul {
+    width: 100%;
+    height: 360px;
+}
+
+.cmsg_container ul li {
+    text-align: center;
+    width: 302px;
+    height: 360px;
+    float: left;
+}
+
+.address_li_title {
+    padding-top: 130px;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+li.address_li {
+    background: url(../images/contact_address.gif) no-repeat;
+}
+
+li.phone_li {
+    background: url(../images/contact_phone.gif) no-repeat;
+}
+
+li.address_li a {
+    width: 95px;
+    height: 35px;
+    background: #333;
+    margin: 0 auto;
+    display: block;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    font-size: 14px;
+    font-family: Arial;
+    margin-top: 20px;
+}
+
+.phone_li_title {
+    padding-top: 130px;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+li.phone_li a {
+    width: 95px;
+    height: 35px;
+    margin: 0 auto;
+    display: block;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    font-size: 14px;
+    font-family: Arial;
+    background: #91bb4f;
+    margin-top: 20px;
+}
+
+.email_li {
+    background: url(../images/contact_email.gif) no-repeat;
+}
+
+.email_li_title {
+    padding-top: 130px;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+li.email_li a {
+    width: 95px;
+    height: 35px;
+    background: #333;
+    margin: 0 auto;
+    display: block;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    font-size: 14px;
+    font-family: Arial;
+    margin-top: 20px;
+}
+
+li.phone_li {
+    margin: 0 147px;
+}
+
+.roadroad_header {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.roadroad_header span {
+    font-size: 34px;
+    font-family: "微软雅黑";
+    text-align: center;
+    line-height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.contact_road {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.road_content dl {
+    width: 265px;
+    text-align: center;
+    margin-right: 45px;
+    float: left;
+}
+
+.road_content span {
+    color: #ffb82a;
+}
+
+dd.road_title {
+    font-family: "微软雅黑";
+    font-size: 20px;
+    color: #4bcdd9;
+    padding: 15px 0;
+    margin: 30px 0;
+    font-weight: bold;
+    border-bottom: 1px solid #4bcdd9;
+    border-top: 1px solid #4bcdd9;
+}
+
+dd.road_cc {
+    text-align: left;
+    line-height: 32px;
+    font-size: 14px;
+}
+
+dd.road_cc img {
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    .footer_container {
+        width: 79%;
+    }
+    .footer_content dl {
+        width: 12%;
+    }
+    .bottom_con {
+        width: 100%;
+    }
+    .vision_left {
+        width: 72%;
+    }
+    .contact_vision {
+        width: 79%;
+    }
+    li.phone_li {
+        margin: 0 36px;
+    }
+    .cmsg_container {
+        width: 100%;
+    }
+    .road_content dl {
+        width: 245px;
+        margin-right: 0;
+    }
+    .contact_road {
+        width: 100%;
+    }
+}

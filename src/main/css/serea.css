@@ -1,0 +1,287 @@
+body {
+    font-family: "微软雅黑";
+    font-size: 12px;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html,
+body,
+dl,
+dd,
+img,
+form,
+div,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.erea_container {
+    width: 100%;
+    margin: 0px auto;
+    color: #444;
+}
+
+.erea_header {
+    background: url(../images/ereaimg.jpg) no-repeat center top;
+    height: 350px;
+}
+
+.erea_content {
+    margin-top: 40px
+}
+
+.serve_pro {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.pro_title {
+    margin-bottom: 50px;
+}
+
+.pro_title span {
+    font-size: 34px;
+    font-family: "微软雅黑";
+    text-align: center;
+    line-height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.pro_dl {
+    width: 17%;
+    height: 230px;
+    background: #f6f6f6;
+    padding: 35px 30px 25px 30px;
+    float: left;
+    margin-right: 48px;
+    margin-bottom: 20px;
+}
+
+dd.pro_name {
+    font-family: "微软雅黑";
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: bold;
+    text-align: left;
+}
+
+dd.pro_int {
+    color: #666;
+    margin: 5px 0 10px 0;
+    text-align: left;
+    font-size: 12px;
+}
+
+dd.pro_word {
+    color: #999;
+    line-height: 20px;
+    text-align: left;
+    font-size: 12px;
+}
+
+.serve_range {
+    width: 100%;
+    margin: 0 auto;
+    background: #f6f6f6;
+}
+
+.range_container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.range_title {
+    font-size: 34px;
+    font-family: "微软雅黑";
+    text-align: center;
+    margin: 0 auto;
+    line-height: 40px;
+    margin-bottom: 50px;
+}
+
+dl.range_dl {
+    width: 30%;
+    margin-right: 55px;
+    float: left;
+    text-align: center;
+}
+
+dl.range_dl dt {
+    padding-bottom: 20px;
+}
+
+.up_content {
+    height: 221px;
+    background: url(../images/content_bg.png) no-repeat;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    font-style: italic;
+    line-height: 32px;
+    padding: 50px 39px 0 39px;
+    text-align: left;
+    background-size: cover;
+}
+
+.down_content {
+    margin-top: 10px;
+}
+
+.down_header {
+    font-family: Impact;
+    font-size: 22px;
+    color: #ccc;
+    margin-top: 2px;
+}
+
+.down_title {
+    font-family: "微软雅黑";
+    font-size: 22px;
+    color: #666;
+}
+
+dd.down_content {
+    float: left;
+}
+
+.demand_container {
+    width: 100%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 40px 0;
+}
+
+.demand_content {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.demand_header span {
+    font-size: 34px;
+    font-family: "微软雅黑";
+    text-align: center;
+    line-height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.demand_title {
+    font-family: Arial;
+    font-size: 24px;
+    color: #fff;
+    background: #4bcdd9;
+    line-height: 22px;
+    height: 22px;
+    width: 430px;
+    padding: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.demand_tips {
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 26px;
+    width: 980px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px;
+    color: #666;
+}
+
+.process_header span {
+    font-size: 34px;
+    font-family: "微软雅黑";
+    text-align: center;
+    line-height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.process_container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.process_content {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.process_header {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.img_content ul li {
+    width: 11%;
+    float: left;
+    text-align: center;
+}
+
+.img_content span {
+    display: inline-block;
+    padding-bottom: 15px;
+}
+
+.img_content font {
+    display: block;
+    font-size: 10px;
+}
+
+.process_content {
+    width: 79%;
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    .serve_pro {
+        width: 79%;
+    }
+    .pro_dl {
+        margin-right: 2px;
+        height: 340px;
+    }
+    .range_container {
+        width: 79%;
+    }
+    .up_content {
+        height: 414px;
+    }
+    dl.range_dl {
+        margin-right: 38px;
+    }
+    .demand_tips {
+        width: 100%;
+    }
+    .demand_content {
+        width: 79%;
+    }
+}

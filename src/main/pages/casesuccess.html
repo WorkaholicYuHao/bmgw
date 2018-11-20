@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>白马王子科技有限公司</title>
+    <link rel="stylesheet" type="text/css" href="../css/casesuccess.css">
+    <link rel="stylesheet" type="text/css" href="../css/top.css">
+    <link rel="stylesheet" type="text/css" href="../css/foot.css">
+    <link rel="stylesheet" type="text/css" href="../layui/css/layui.css">
+    <link rel="stylesheet" type="text/css" href="../css/iconfont.css">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../layui/layui.js"></script>
+</head>
+<style>
+    .layui-header {
+        height: 100px;
+    }
+    
+    .layui-layout-admin .layui-logo {
+        line-height: 100px;
+    }
+    
+    .layui-layout-left {
+        right: 0;
+        top: 0;
+    }
+    
+    .layui-nav .layui-nav-item {
+        line-height: 100px;
+    }
+    
+    .layui-tab-content {
+        padding: 30px;
+    }
+    
+    .layui-tab-title {
+        border-width: 1px;
+        border-style: solid;
+    }
+    
+    .layui-tab-card {
+        border: none;
+        box-shadow: none;
+    }
+</style>
+
+<body>
+    <div class="include" file="../pages/top.html"></div>
+    <div class="casesucc_container">
+        <div class="casesucc_title">
+        </div>
+        <div class="casesucc_content">
+            <div class="casesucc_header">
+                <div class="casesucc_content_title">
+                    <img src="../images/shenglue.png">
+                    <span>成功案例</span>
+                    <img src="../images/shenglue.png">
+                </div>
+                <div class="casesucc_content_container">
+                    <div class="casesucc_content_content">
+                        <div class="layui-tab layui-tab-card">
+                            <ul class="layui-tab-title">
+                                <li class="layui-this">所有案例</li>
+                                <li>管理系统</li>
+                                <li>大数据</li>
+                                <li>系统平台</li>
+                                <li>手机APP</li>
+                                <li>物联网平台</li>
+                            </ul>
+                            <div class="layui-tab-content">
+                                <div class="layui-tab-item layui-show">
+                                    <ul>
+                                        <li>
+                                            <a>
+                                                <img src="../images/p1.png">
+                                                <span>
+                                                    <b>宜天信达北京软件公司与</b>
+                                                </span>
+                                            </a>
+                                            <div class="case_text">
+                                                北京软件公司 宜天信达-完成奔驰汽车座椅Z177线生产线MES系统设计、开发、安装、调试与PLC交互，主要功能为订单接
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <a>
+                                                <img src="../images/p1.png">
+                                                <span>
+                                                        <b>宜天信达北京软件公司与</b>
+                                                    </span>
+                                            </a>
+                                            <div class="case_text">
+                                                北京软件公司 宜天信达-完成奔驰汽车座椅Z177线生产线MES系统设计、开发、安装、调试与PLC交互，主要功能为订单接
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <a>
+                                                <img src="../images/p1.png">
+                                                <span>
+                                                            <b>宜天信达北京软件公司与</b>
+                                                        </span>
+                                            </a>
+                                            <div class="case_text">
+                                                北京软件公司 宜天信达-完成奔驰汽车座椅Z177线生产线MES系统设计、开发、安装、调试与PLC交互，主要功能为订单接
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <a>
+                                                <img src="../images/p1.png">
+                                                <span>
+                                                                <b>宜天信达北京软件公司与</b>
+                                                            </span>
+                                            </a>
+                                            <div class="case_text">
+                                                北京软件公司 宜天信达-完成奔驰汽车座椅Z177线生产线MES系统设计、开发、安装、调试与PLC交互，主要功能为订单接
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <a>
+                                                <img src="../images/p1.png">
+                                                <span>
+                                                                    <b>宜天信达北京软件公司与</b>
+                                                                </span>
+                                            </a>
+                                            <div class="case_text">
+                                                北京软件公司 宜天信达-完成奔驰汽车座椅Z177线生产线MES系统设计、开发、安装、调试与PLC交互，主要功能为订单接
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div class="clearBoth">
+                                    </div>
+                                </div>
+                                <div class="layui-tab-item">2</div>
+                                <div class="layui-tab-item">3</div>
+                                <div class="layui-tab-item">4</div>
+                                <div class="layui-tab-item">5</div>
+                                <div class="layui-tab-item">6</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="include" file="../pages/foot.html"></div>
+</body>
+<script>
+    start();
+
+    function start() {
+        $(".include").each(function() {
+            if (!!$(this).attr("file")) {
+                var $includeObj = $(this);
+                $(this).load($(this).attr("file"), function(html) {
+                    $includeObj.after(html).remove();
+                })
+            }
+        });
+        layui.use('element', function() {
+            var element = layui.element;
+        });
+        layui.use('element', function() {
+            var $ = layui.jquery,
+                element = layui.element;
+        });
+    }
+</script>

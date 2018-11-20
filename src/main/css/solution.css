@@ -1,0 +1,170 @@
+body {
+    font-family: "微软雅黑";
+    font-size: 12px;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html,
+body,
+dl,
+dd,
+img,
+form,
+div,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.solution_container {
+    width: 100%;
+    margin: 0px auto;
+    color: #444;
+}
+
+.solution_header {
+    background: url(../images/solution_bg.jpg) no-repeat center top;
+    height: 350px;
+}
+
+.solution_content {
+    margin-top: 80px
+}
+
+.solution_content_title {
+    text-align: center;
+}
+
+.solution_content_title span {
+    font-size: 34px;
+    font-family: "微软雅黑";
+    text-align: center;
+    line-height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.solution_one {
+    width: 1200px;
+    overflow: hidden;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+.solution_picture {
+    width: 49%;
+    display: inline-block;
+    text-align: center;
+}
+
+.solution_font {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.font_title {
+    color: #4bcdd9;
+    font-size: 26px;
+    font-family: "微软雅黑";
+    font-weight: bold;
+}
+
+.font_content {
+    font-size: 14px;
+    font-family: "微软雅黑";
+    line-height: 28px;
+    margin-top: 20px;
+}
+
+.solution_one p {
+    margin-top: 24px;
+    color: #ffba19;
+}
+
+.solution_one a {
+    color: #ffba19;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.solution_one_bg {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.solution_two_bg {
+    width: 100%;
+    margin: 0 auto;
+    background: #f6f6f6;
+}
+
+.solution_font_two {
+    width: 49%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+}
+
+.solution_picture_two {
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+}
+
+.solution_font_two p {
+    margin-top: 24px;
+    color: #ffba19;
+}
+
+.solution_two {
+    width: 1200px;
+    overflow: hidden;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+.solution_font_two a {
+    color: #ffba19;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.solution_font_two a:hover {
+    color: #ffba19;
+    text-decoration: underline
+}
+
+.solution_one a:hover {
+    color: #ffba19;
+    text-decoration: underline
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    .solution_one {
+        width: 79%;
+    }
+    .solution_two {
+        width: 79%;
+    }
+}

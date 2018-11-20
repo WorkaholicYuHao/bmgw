@@ -1,0 +1,272 @@
+body {
+    font-family: "微软雅黑";
+    font-size: 12px;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html,
+body,
+dl,
+dd,
+img,
+form,
+div,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.app_container {
+    width: 100%;
+    margin: 0px auto;
+    color: #444;
+}
+
+.app_header {
+    background: url(../images/app_bg.jpg) no-repeat center top;
+    height: 350px;
+}
+
+.app_content {
+    margin-top: 40px;
+}
+
+.introduce_content {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.introduce_title span {
+    font-size: 34px;
+    font-family: "微软雅黑";
+    text-align: center;
+    line-height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.introduce_title p {
+    font-family: "微软雅黑";
+    font-size: 22px;
+    color: #666;
+    margin-top: 20px;
+}
+
+.details_content {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.details_content ul li {
+    float: left;
+    width: 30%;
+    margin-right: 60px;
+}
+
+.details_img {
+    width: auto;
+    height: auto;
+    display: inline-block;
+}
+
+.details_messages {
+    width: 260px;
+    float: right;
+    text-align: left
+}
+
+.message_title {
+    font-size: 18px;
+    font-family: "微软雅黑";
+    line-height: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.message_content {
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.last_container {
+    width: 100%;
+    margin: 0 auto;
+    background: #f6f6f6;
+}
+
+.last_con {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.last_img {
+    width: 50%;
+    display: inline-block;
+}
+
+.last_text {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+    text-align: left;
+}
+
+.header_img {
+    display: inline-block;
+    width: 22%;
+    vertical-align: top;
+}
+
+.header_content {
+    display: inline-block;
+    font-family: "微软雅黑";
+    font-size: 22px;
+    margin-top: 5px;
+}
+
+.header_content span {
+    font-family: "微软雅黑";
+    font-size: 26px;
+    color: #4bcdd9;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.up_text_content {
+    margin: 20px 0 10px 0;
+    font-family: "微软雅黑";
+    font-size: 18px;
+}
+
+.down_text_content {
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.last_text_msg {
+    font-size: 14px;
+    line-height: 28px;
+    margin-top: 20px;
+}
+
+.last_text_content ul li a {
+    display: block;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.last_text_content ul li a:hover {
+    color: #fff;
+    background: #4bcdd9;
+}
+
+.last_text_content ul li {
+    float: left;
+    margin-right: 10px;
+    font-size: 18px;
+    width: 100px;
+    height: 36px;
+    font-family: "微软雅黑";
+    line-height: 36px;
+    text-align: center;
+}
+
+.approach {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.approach_title {
+    font-size: 34px;
+    font-family: "微软雅黑";
+    text-align: center;
+    margin: 0 auto;
+    line-height: 40px;
+}
+
+.approach_content {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.approach_text {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
+.approach_img {
+    widows: 49%;
+    display: inline-block;
+}
+
+.approach_header {
+    color: #4bcdd9;
+    font-family: "微软雅黑";
+    font-size: 30px;
+}
+
+.approach_init {
+    font-size: 18px;
+    font-family: "微软雅黑";
+    padding-top: 20px;
+    line-height: 36px;
+}
+
+.app_support {
+    color: #81baf8;
+    padding-top: 20px;
+}
+
+.app_support span {
+    padding-right: 20px;
+}
+
+.app_support img {
+    padding-right: 20px;
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    .details_content {
+        width: 100%;
+    }
+    .details_content ul li {
+        float: left;
+        width: 32%;
+        margin-right: 19px;
+    }
+    .last_con {
+        width: 79%;
+    }
+    .approach {
+        width: 100%;
+    }
+    .approach_content {
+        width: 100%;
+    }
+}

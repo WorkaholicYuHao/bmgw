@@ -1,0 +1,328 @@
+body {
+    font-family: "微软雅黑";
+    font-size: 12px;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html,
+body,
+dl,
+dd,
+img,
+form,
+div,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.about_img {
+    background: url(../images/about_banner.jpg) no-repeat center top;
+    height: 350px;
+}
+
+.about {
+    margin-top: 40px;
+}
+
+.about_container {
+    width: 100%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 40px 0;
+}
+
+.about_content {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 24px;
+}
+
+.about_title span {
+    font-size: 34px;
+    font-family: "微软雅黑";
+    text-align: center;
+    line-height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.title_subject {
+    position: relative;
+    width: 1200px;
+    overflow: hidden;
+    height: 235px;
+}
+
+.about_title {
+    margin-bottom: 50px;
+}
+
+.title_subject {
+    position: relative;
+    width: 1200px;
+    overflow: hidden;
+    height: 235px;
+}
+
+.subject_img {
+    float: left;
+    width: 49%;
+}
+
+.subject_img img {
+    margin-top: 25px;
+}
+
+.subject_content {
+    float: right;
+    width: 51%;
+    text-align: left;
+}
+
+.subject_content_title {
+    color: #ccc;
+    font-size: 26px;
+    font-family: "微软雅黑";
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.subject_input {
+    color: #666;
+    line-height: 24px;
+    font-family: "微软雅黑";
+}
+
+.what_content {
+    width: 49%;
+    float: left;
+    text-align: left;
+}
+
+.what_img {
+    width: 51%;
+    float: right;
+}
+
+.what_content_title {
+    font-size: 26px;
+    font-family: "微软雅黑";
+    background: #4bcdd9;
+    width: 200px;
+    height: 40px;
+    color: #fff;
+    line-height: 40px;
+    padding-left: 20px;
+}
+
+.what_int {
+    color: #999;
+    font-size: 18px;
+    font-family: "微软雅黑";
+    padding: 10px 20px;
+}
+
+.what_input {
+    width: 50%;
+    float: left;
+}
+
+.what_ul img {
+    display: inline-block;
+    vertical-align: text-bottom;
+}
+
+.descripe {
+    width: auto;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.what_input_B {
+    width: 50%;
+    float: right;
+}
+
+.what_input_C {
+    width: 50%;
+    float: left;
+}
+
+.what_input_D {
+    width: 50%;
+    float: right;
+}
+
+.what_img img {
+    margin-top: 25px;
+}
+
+.subject_content span {
+    font-family: "微软雅黑";
+    font-size: 14px;
+    font-weight: bold;
+    color: #666;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.bold_title {
+    color: #ccc;
+    font-size: 26px;
+    font-family: "微软雅黑";
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.solid_title {
+    margin-bottom: 15px;
+    color: #666;
+}
+
+.title_subject ul li {
+    float: left;
+    margin: 0 10px;
+}
+
+
+/* .title_subject span {
+    font-family: "微软雅黑";
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+    padding-bottom: 10px;
+    margin-top: 10px;
+} */
+
+.about_join {
+    width: 100%;
+    margin: 0 auto;
+    background: #f6f6f6;
+    padding: 40px 0;
+}
+
+.join_content {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 24px;
+}
+
+.join_title span {
+    font-size: 34px;
+    font-family: "微软雅黑";
+    text-align: center;
+    line-height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.join_title {
+    margin-bottom: 50px;
+}
+
+.join_img {
+    float: left;
+    width: 50%;
+}
+
+.join_c {
+    float: right;
+    width: 50%;
+    text-align: left;
+}
+
+.join_img img {
+    margin: 50px 0;
+}
+
+.join_c_title {
+    color: #ccc;
+    font-size: 26px;
+    font-family: "微软雅黑";
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.join_c_c {
+    color: #666;
+}
+
+.join_email {
+    color: #4bcdd9;
+    margin: 10px 0;
+}
+
+.img_content {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 24px;
+}
+
+.ul_u {
+    height: 248px;
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    .about_content {
+        width: 79%;
+    }
+    .title_subject {
+        width: 100%;
+        height: 252px;
+        font-size: 10px;
+    }
+    .subject_content_title {
+        margin-bottom: 10px
+    }
+    .descripe {
+        margin: 0
+    }
+    .descripe p {
+        font-size: 10px !important;
+    }
+    .join_content {
+        width: 79%
+    }
+    .title_subject ul li {
+        width: 173px;
+    }
+    img.jbei1 {
+        width: 100%;
+    }
+    img.jbei2 {
+        width: 100%;
+    }
+    img.jbei3 {
+        width: 100%;
+    }
+    img.jbei4 {
+        width: 100%;
+    }
+    .ul_u {
+        height: 210px;
+    }
+}
