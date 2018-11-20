@@ -37,7 +37,7 @@ body {
 }
 
 .top {
-    background: url(/bmgw/src/main/images/top.gif) repeat-x;
+    background: url(../images/top.gif) repeat-x;
     height: 40px;
     width: 100%;
     margin: 0 auto;
@@ -77,7 +77,7 @@ span.email {
 
 .index_header {
     height: 790px;
-    background: url(/bmgw/src/main/images/top_bottom.gif) repeat-x bottom;
+    background: url(../images/top_bottom.gif) repeat-x bottom;
 }
 
 .index_option {
@@ -122,12 +122,12 @@ span.email {
 }
 
 .background1 {
-    background: url(/bmgw/src/main/images/bg1.gif) no-repeat;
+    background: url(../images/bg1.gif) no-repeat;
     margin-right: 63px;
 }
 
 .background1:hover {
-    background: url(/bmgw/src/main/images/bg1hover.gif) no-repeat;
+    background: url(../images/bg1hover.gif) no-repeat;
     color: #2eafbb;
 }
 
@@ -136,12 +136,12 @@ span.email {
 }
 
 .background2 {
-    background: url(/bmgw/src/main/images/bg2.gif) no-repeat;
+    background: url(../images/bg2.gif) no-repeat;
     margin-right: 63px;
 }
 
 .background2:hover {
-    background: url(/bmgw/src/main/images/bg2hover.gif) no-repeat;
+    background: url(../images/bg2hover.gif) no-repeat;
     color: #2eafbb;
 }
 
@@ -150,12 +150,12 @@ span.email {
 }
 
 .background3 {
-    background: url(/bmgw/src/main/images/bg3.gif) no-repeat;
+    background: url(../images/bg3.gif) no-repeat;
     margin-right: 63px;
 }
 
 .background3:hover {
-    background: url(/bmgw/src/main/images/bg3hover.gif) no-repeat;
+    background: url(../images/bg3hover.gif) no-repeat;
     color: #2eafbb;
 }
 
@@ -164,11 +164,11 @@ span.email {
 }
 
 .background4 {
-    background: url(/bmgw/src/main/images/bg4.gif) no-repeat;
+    background: url(../images/bg4.gif) no-repeat;
 }
 
 .background4:hover {
-    background: url(/bmgw/src/main/images/bg4hover.gif) no-repeat;
+    background: url(../images/bg4hover.gif) no-repeat;
     color: #2eafbb;
 }
 
@@ -184,7 +184,7 @@ span.email {
 
 .case_title {
     margin-bottom: 25px;
-    background: url(/bmgw/src/main/images/case_title.png) repeat-x center center;
+    background: url(../images/case_title.png) repeat-x center center;
 }
 
 .big_title {
@@ -238,7 +238,7 @@ dl.case_center {
 
 .news_active {
     margin: 0 auto;
-    background: url(/bmgw/src/main/images/news_bg.gif) no-repeat center center;
+    background: url(../images/news_bg.gif) no-repeat center center;
     background-color: #f9f9f9;
 }
 
@@ -251,7 +251,7 @@ dl.case_center {
 
 .news_header {
     margin-bottom: 25px;
-    background: url(/bmgw/src/main/images/case_title.png) repeat-x center center;
+    background: url(../images/case_title.png) repeat-x center center;
 }
 
 .news_title_content {
@@ -312,7 +312,7 @@ dl.case_center {
 
 .partner_header {
     margin-bottom: 25px;
-    background: url(/bmgw/src/main/images/parter.png) repeat-x center center;
+    background: url(../images/parter.png) repeat-x center center;
 }
 
 .partner_title {
@@ -335,7 +335,7 @@ dl.case_center {
 .footer {
     width: 100%;
     margin: 0 auto;
-    background: url(/bmgw/src/main/images/footer_bg.gif) repeat-x;
+    background: url(../images/footer_bg.gif) repeat-x;
     height: 404px;
 }
 
@@ -397,7 +397,7 @@ dl.case_center {
 .bottom {
     width: 100%;
     margin: 0 auto;
-    background: url(/bmgw/src/main/images/bottom_bg.gif) repeat-x;
+    background: url(../images/bottom_bg.gif) repeat-x;
     height: 65px;
     line-height: 65px;
 }
