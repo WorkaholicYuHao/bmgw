@@ -1,0 +1,115 @@
+body {
+    font-family: "微软雅黑";
+    font-size: 12px;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html,
+body,
+dl,
+dd,
+img,
+form,
+div,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.journalism {
+    width: 100%;
+    margin: 0px auto;
+    color: #444;
+}
+
+.journalism_header {
+    background: url(../images/news_backg.jpg) no-repeat center top;
+    height: 350px;
+}
+
+.the_new {
+    width: 100%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px 0;
+}
+
+.the_new_content {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.the_title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.the_title span {
+    font-size: 34px;
+    font-family: "微软雅黑";
+    text-align: center;
+    line-height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.the_title_content {
+    padding-bottom: 20px;
+}
+
+.journalism_content_header {
+    font-family: "微软雅黑";
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.the_title_word {
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 28px;
+}
+
+.news_add {
+    margin-bottom: 20px;
+}
+
+.the_title_under {
+    margin-bottom: 20px;
+}
+
+.the_new_under a {
+    color: #fff;
+    background: #4bcdd9;
+    width: 130px;
+    height: 35px;
+    line-height: 35px;
+    display: block;
+    float: right;
+    text-align: center;
+}
+
+.the_new_content {
+    width: 79%;
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) {}
