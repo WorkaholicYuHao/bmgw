@@ -355,8 +355,8 @@ dd.road_cc img {
         width: 100%;
     }
     .road_content dl {
-        width: 245px;
-        margin-right: 0;
+        width: 230px;
+        margin-right: 20px;
     }
     .contact_road {
         width: 100%;
